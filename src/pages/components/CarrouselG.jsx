@@ -15,7 +15,7 @@ export const GenericCarousel = ({
   }
 }) => {
   return (
-    <section className="px-4 relative ">
+    <section className=" relative ">
       <div className="flex justify-start items-center mb-4">
         <h2 className="text-2xl font-bold mr-2 text-gray-800">{title}</h2>
         {showViewAll && (
