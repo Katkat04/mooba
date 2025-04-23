@@ -8,7 +8,10 @@ import p3 from '../assets/p3.png'
 import p4 from '../assets/p4.png'
 import p5 from '../assets/p5.png'
 import p6 from '../assets/p6.png'
-
+import antiD from '../assets/antibioticosD.png'
+import antiM from '../assets/antibioticosM.png'
+import BannerCSV from '../assets/bannerCVS.png'
+import BannerCSVM from '../assets/bannerCVSM.png'
 
 
 function Homepage() {
@@ -16,7 +19,7 @@ function Homepage() {
         <PrincipalLayout>
             <BannerCarousel banners={homeData.banners}/>
             <section className="relative ">
-                <div className="flex overflow-x-auto md:justify-center scrollbar-hide py-2 px-4 gap-4">
+                <div className="flex overflow-x-auto md:justify-center scrollbar-hide py-2 px-4 md:gap-8">
                     <div className="flex flex-nowrap gap-4">
                         <div className="flex flex-col justify-center items-center min-w-[80px]">
                             <img src={p1} className="w-16 h-16 md:w-20 md:h-20"/>
@@ -49,13 +52,29 @@ function Homepage() {
                         </div>
                     </div>
                 </div>
-                </section>
+            </section>
+            <section className="relative mx-4 md:mx-10 ">
+                <div className="hidden md:block">
+                    <img src={antiD} className="rounded-lg"/>
+                </div>
+                <div className="block md:hidden rounded-lg">
+                    <img src={antiM}/>
+                </div>
+            </section>
             <div className="container mx-auto px-4 space-y-12 py-8">
-                <GenericCarousel title="Ofertas Especiales"
+                <GenericCarousel title="Las mejores ofertas 🚨"
                 products={homeData.products.specialOffers}/>
-                <GenericCarousel title="Los más vendidos"
-                products={homeData.products.bestSellers}/>
+                <GenericCarousel title="Lo más buscado 🤩 "
+                products={homeData.products.bestSearched}/>
             </div>
+            <section className="relative mx-4 my-4 md:mx-10 ">
+                <div className="hidden md:block">
+                    <img src={BannerCSV} className="rounded-lg"/>
+                </div>
+                <div className="block md:hidden rounded-lg">
+                    <img src={BannerCSVM}/>
+                </div>
+            </section>
         </PrincipalLayout>
     )
 }

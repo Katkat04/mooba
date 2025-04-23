@@ -25,39 +25,25 @@ export const homeData = {
       {
         id: 1,
         brand: "POND'S",
-        name: "Crema Pond's Clarant B3",
+        name: "Crema Pond’s Clarant B3 Piel Normal A Grasa Porte x 100G",
         price: 10250,
         originalPrice: 21550,
         discount: 20,
-        image: "/products/ponds-cream.jpg",
+        image: "https://olimpica.vtexassets.com/arquivos/ids/604942/7501056330293.jpg?v=637626480660730000",
         badge: "Exclusivo Web",
-        timer: "00:00m o 03:00"
       },
     ],
-    bestSellers: [
+    bestSearched: [
       {
-        id: 101,
-        brand: "NIVEA",
-        name: "Crema Hidratante 200ml",
-        price: 12500,
-        image: "/products/nivea-cream.jpg",
-        badge: "Más vendido",
-        badgeClass: "bg-green-600"
+        id: 1,
+        brand: "POND'S",
+        name: "Crema Pond’s Clarant B3 Piel Normal A Grasa Porte x 100G",
+        price: 10250,
+        originalPrice: 21550,
+        discount: 20,
+        image: "https://olimpica.vtexassets.com/arquivos/ids/604942/7501056330293.jpg?v=637626480660730000",
+        badge: "Exclusivo Web",
       },
     ],
-    
-    newArrivals: [
-      {
-        id: 201,
-        brand: "L'ORÉAL",
-        name: "Shampoo Reparador 400ml",
-        price: 18500,
-        originalPrice: 22000,
-        discount: 16,
-        image: "/products/loreal-shampoo.jpg",
-        badge: "Nuevo",
-        badgeClass: "bg-blue-600"
-      },
-    ]
   }
 }
