@@ -64,7 +64,7 @@ export const GenericCarousel = ({
                               {product.discount}%
                             </span>
                             <span className="block text-md bg-green-100 text-green-800 px-1 mt-1 rounded w-fit">
-                              Exlusivo en web
+                              Exclusivo en web
                             </span>
                             </div>
                           )}
