@@ -5,7 +5,7 @@ import logoE from '../assets/logo2.png'
 
 function Footer() {
     return (
-        <footer className="bg-white text-gray-800 border-t border-gray-200">
+        <footer className="bg-white text-gray-800">
             <div className="w-full mx-2 px-2 py-8">
                 <div className="flex flex-col md:flex-row justify-between gap-4 mb-8 w-full ">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full md:w-[70%]">
