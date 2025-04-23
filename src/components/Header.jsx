@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faChevronDown, faLocationDot, faSearch, faBars, faTimes} from "@fortawesome/free-solid-svg-icons"
+import {faChevronDown, faSearch, faBars, faTimes} from "@fortawesome/free-solid-svg-icons"
 import { useState, useEffect } from "react"
 
 function Header() {

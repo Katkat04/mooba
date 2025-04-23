@@ -6,7 +6,7 @@ export const PrincipalLayout = ({ children }) => {
     return (
         <div className="flex flex-col min-h-screen">
             <Header/>
-            <main className="mt-6">
+            <main>
             {children}
             </main>
             <Footer/>
